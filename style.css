@@ -93,7 +93,7 @@ input[type="text"] {
   flex-grow: 1;
   font-size: x-large;
   font-weight: bold;
-  padding-left: 0rem;
+  padding-left: 0.4rem;
 }
 
 .edie-home-page.container .title {
