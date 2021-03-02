@@ -288,7 +288,7 @@ input[type="text"] {
   grid-column: 1 / span 12;
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 768px) {
   .edie-home-page.container .nav .item {
     cursor: pointer;
   }
@@ -484,9 +484,7 @@ input[type="text"] {
     grid-template-columns: repeat(12, 1fr);
     background-color: #0f0e1d;
     color: #f2f3f2;
-  }
-  .edie-home-page.container .page-end .footer-logo {
-    text-align: end;
+    padding-top: 20px;
   }
   .edie-home-page.container .page-end .lists {
     grid-row: 1 / span 1;
@@ -494,8 +492,12 @@ input[type="text"] {
     display: flex;
     justify-content: space-around;
   }
+  .edie-home-page.container .page-end .lists .item {
+    display: flex;
+    justify-content: space-around;
+  }
   .edie-home-page.container .page-end .lists div {
-    padding-bottom: 5px;
+    padding-bottom: 4px;
   }
   .edie-home-page.container .page-end footer {
     grid-row: 2 / span 1;
